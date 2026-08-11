@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#17172f" />
+    <meta name="description" content="A soft, silly, slightly magical birthday wish for Monsoon (Mausam)." />
+    <title>A Little Monsoon Magic</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <audio id="birthdayAudio" preload="metadata" loop src="https://res.cloudinary.com/dxrqlmgcz/video/upload/v1786428841/Taylor_Swift_-_Lover_Official_Music_Video_xeumv2.mp3"></audio>
+    <div class="stardust-layer" aria-hidden="true"></div>
+
+    <section class="ceremony ceremony--stage-0" id="ceremony" aria-label="A little birthday ceremony">
+      <div class="ceremony__sky" aria-hidden="true">
+        <span class="star star--one">✦</span><span class="star star--two">·</span>
+        <span class="star star--three">✧</span><span class="star star--four">♡</span>
+        <span class="moon">☾</span>
+      </div>
+      <div class="fairy-lights" aria-hidden="true">
+        <span style="--i:0"></span><span style="--i:1"></span><span style="--i:2"></span><span style="--i:3"></span>
+        <span style="--i:4"></span><span style="--i:5"></span><span style="--i:6"></span><span style="--i:7"></span>
+        <span style="--i:8"></span><span style="--i:9"></span><span style="--i:10"></span><span style="--i:11"></span><span style="--i:12"></span>
+      </div>
+      <div class="bunting" aria-hidden="true">
+        <i style="--i:0"></i><i style="--i:1"></i><i style="--i:2"></i><i style="--i:3"></i><i style="--i:4"></i>
+        <i style="--i:5"></i><i style="--i:6"></i><i style="--i:7"></i><i style="--i:8"></i>
+      </div>
+
+      <div class="ceremony__content">
+        <div class="ceremony__progress" id="ceremonyProgress" aria-label="Step 1 of 4"><span class="is-done"></span><span></span><span></span><span></span></div>
+        <p class="ceremony__eyebrow" id="ceremonyEyebrow">A tiny ceremony · 1 of 4</p>
+        <div class="ceremony__words" id="ceremonyWords">
+          <h1 id="ceremonyTitle">Psst… the birthday room is still asleep.</h1>
+          <p class="ceremony__copy" id="ceremonyCopy">Four tiny things before the birthday magic begins.</p>
+        </div>
+
+        <div class="cake" id="cake" aria-label="A three-layer birthday cake">
+          <span class="candle" id="candle"><i></i></span><span class="cake__topper">M</span>
+          <span class="cake__tier cake__tier--top"><i></i><b></b><em></em></span>
+          <span class="cake__tier cake__tier--middle"><i></i><b></b><em></em></span>
+          <span class="cake__tier cake__tier--bottom"><i></i><b></b><em></em></span>
+          <span class="cake__plate"></span><span class="cake__knife">♡</span>
+          <span class="cake__crumb cake__crumb--one"></span><span class="cake__crumb cake__crumb--two"></span>
+        </div>
+
+        <button class="ceremony__button" id="ceremonyButton" type="button">
+          <span id="ceremonyIcon">✦</span>
+          <span><strong id="ceremonyLabel">Turn on the lights</strong><small id="ceremonyNote">The room is still a little sleepy</small></span>
+          <b aria-hidden="true">→</b>
+        </button>
+        <p class="ceremony__no-skip">No skipping. Birthday rules are very serious.</p>
+      </div>
+
+      <div class="cloud cloud--left" aria-hidden="true"><i></i><i></i><i></i></div>
+      <div class="cloud cloud--right" aria-hidden="true"><i></i><i></i><i></i></div>
+      <div class="ceremony__rain" aria-hidden="true">
+        <i style="--i:0"></i><i style="--i:1"></i><i style="--i:2"></i><i style="--i:3"></i><i style="--i:4"></i><i style="--i:5"></i>
+        <i style="--i:6"></i><i style="--i:7"></i><i style="--i:8"></i><i style="--i:9"></i><i style="--i:10"></i><i style="--i:11"></i>
+      </div>
+    </section>
+
+    <main class="birthday-page">
+      <div class="ambient-rain" id="ambientRain" aria-hidden="true"></div>
+      <nav class="birthday-nav" aria-label="Birthday page navigation">
+        <a href="#top" class="birthday-nav__mark" aria-label="Back to the birthday wish">M<span>☂</span></a>
+        <p>11 August · a very good day</p>
+        <button type="button" id="musicButton" aria-label="Play music">
+          <span class="music-bars" id="musicBars" aria-hidden="true"><i></i><i></i><i></i></span>
+          <span id="musicLabel">play music</span>
+        </button>
+      </nav>
+
+      <section class="hero" id="top">
+        <div class="hero__cloudscape" aria-hidden="true">
+          <div class="hero-cloud hero-cloud--one"><i></i><i></i></div><div class="hero-cloud hero-cloud--two"><i></i><i></i></div><span class="hero__moon">☾</span>
+        </div>
+        <div class="hero__copy" data-reveal>
+          <span class="hero__tiny-badge">☂ made for one very specific Mausam</span>
+          <p class="kicker">A little birthday forecast</p>
+          <h1>Happy Birthday,<br /><em>MONSOON.</em></h1>
+          <p class="hero__aside">(Mausam, if we are being official.)</p>
+          <p class="hero__intro">A small corner of the internet, decorated entirely to make your day feel a little softer, sillier, and more magical.</p>
+          <div class="hero__micro-note"><span>☺</span> One normal birthday text felt slightly underdressed.</div>
+        </div>
+
+        <aside class="envelope-scene" id="envelopeScene" data-reveal>
+          <div class="envelope__orbit" aria-hidden="true"><span>✦</span><span>♡</span><span>☺</span></div>
+          <button type="button" class="envelope" id="envelopeButton" aria-expanded="false" aria-label="Open the birthday note">
+            <span class="envelope__back"></span>
+            <span class="envelope__letter">
+              <span class="note-kicker">One simple hope</span>
+              <strong>“I hope because of this, there is a smile on your face.”</strong>
+              <small>P.S. This amount of effort is completely normal. Please do not investigate. ☺</small>
+              <span class="smiley-parade" aria-hidden="true"><i>☺</i><i>☻</i><i>☺</i><i>✦</i><i>♡</i></span>
+            </span>
+            <span class="envelope__front"></span><span class="envelope__flap"></span><span class="envelope__seal">M</span>
+            <span class="envelope__prompt" id="envelopePrompt">Tap to open your tiny note <b>↗</b></span>
+          </button>
+          <p class="envelope__opened-caption" id="envelopeCaption" hidden>There. That smile, hopefully. ☺</p>
+        </aside>
+        <a class="hero__scroll" href="#forecast"><span>More birthday weather below</span><i>↓</i></a>
+      </section>
+
+      <section class="forecast" id="forecast">
+        <div class="forecast__weather-art" aria-hidden="true"><div class="forecast-cloud"><i></i><i></i></div><span>☂</span><span>✦</span><span>♡</span></div>
+        <div class="section-heading section-heading--forecast" data-reveal>
+          <p class="kicker">Today’s weather report</p>
+          <h2>Mostly magical,<br /><em>with a chance of cake.</em></h2>
+          <p class="section-heading__aside">The numbers were checked by absolutely nobody—but they feel correct.</p>
+        </div>
+        <div class="forecast__grid" data-sequence aria-label="Birthday forecast, revealed one by one">
+          <article data-sequence-item style="--order:0"><span class="forecast__icon">✦</span><strong>100%</strong><p>chance of birthday magic</p><small>officially forecast</small></article>
+          <article data-sequence-item style="--order:1"><span class="forecast__icon">☺</span><strong>∞</strong><p>compliments expected</p><small>as they should be</small></article>
+          <article data-sequence-item style="--order:2"><span class="forecast__icon">☂</span><strong>0%</strong><p>room for boring moments</p><small>not on our watch</small></article>
+          <article data-sequence-item style="--order:3"><span class="forecast__icon">♡</span><strong>1</strong><p>person suspiciously glad you exist</p><small>identity classified</small></article>
+        </div>
+        <p class="forecast__footnote" data-reveal>Forecast update: scattered giggles expected all day.</p>
+      </section>
+
+      <section class="memories" id="memories">
+        <div class="memory-ribbon" aria-hidden="true">tiny moments · lovely evidence · tiny moments · lovely evidence</div>
+        <div class="section-heading section-heading--dark" data-reveal>
+          <div><p class="kicker">Three little memories</p><h2>Because good moments deserve an encore.</h2></div>
+          <p class="section-heading__note">They arrive one at a time—like tiny scenes worth keeping. Tap one for the full-size evidence.</p>
+        </div>
+        <div class="photo-stack" data-sequence aria-label="Three memories, revealed one by one">
+          <button class="photo-card photo-card--1" data-sequence-item data-photo-index="0" style="--order:0" type="button" aria-label="Open photo 1">
+            <span class="photo-card__tape"></span><span class="photo-card__sticker">soft day ☁</span>
+            <span class="photo-card__image"><img src="https://res.cloudinary.com/dxrqlmgcz/image/upload/v1786428218/WhatsApp_Image_2026-08-11_at_11.29.41_swfblj.jpg" alt="A birthday memory of Monsoon, photo 1" loading="lazy" /></span>
+            <span class="photo-card__number">01</span><span class="photo-card__caption">A very convincing case for main-character weather.</span><span class="photo-card__tap">tap to peek ↗</span>
+          </button>
+          <button class="photo-card photo-card--2" data-sequence-item data-photo-index="1" style="--order:1" type="button" aria-label="Open photo 2">
+            <span class="photo-card__tape"></span><span class="photo-card__sticker">caught smiling ☺</span>
+            <span class="photo-card__image"><img src="https://res.cloudinary.com/dxrqlmgcz/image/upload/v1786428218/WhatsApp_Image_2026-08-11_at_11.29.41_2_xyttsy.jpg" alt="A birthday memory of Monsoon, photo 2" loading="lazy" /></span>
+            <span class="photo-card__number">02</span><span class="photo-card__caption">Cute, caught in 4K. The evidence is undeniable.</span><span class="photo-card__tap">tap to peek ↗</span>
+          </button>
+          <button class="photo-card photo-card--3" data-sequence-item data-photo-index="2" style="--order:2" type="button" aria-label="Open photo 3">
+            <span class="photo-card__tape"></span><span class="photo-card__sticker">keep this one ✦</span>
+            <span class="photo-card__image"><img src="https://res.cloudinary.com/dxrqlmgcz/image/upload/v1786428218/WhatsApp_Image_2026-08-11_at_11.29.41_1_jqfkll.jpg" alt="A birthday memory of Monsoon, photo 3" loading="lazy" /></span>
+            <span class="photo-card__number">03</span><span class="photo-card__caption">One of those moments that deserves to stay.</span><span class="photo-card__tap">tap to peek ↗</span>
+          </button>
+        </div>
+        <div class="memory-after" data-reveal><span>♡</span><p>Three photos. Somehow, a whole little feeling.</p></div>
+      </section>
+
+      <section class="little-wishes">
+        <div class="little-wishes__title" data-reveal><p class="kicker">Tiny wishes, big sincerity</p><h2>For the year waiting ahead of you…</h2><p>Nothing dramatic. Just a pocketful of good things with your name on them.</p></div>
+        <div class="wish-cards" data-sequence>
+          <article data-sequence-item style="--order:0"><span class="wish-cards__number">01</span><i>♪</i><p>May your playlists always understand the assignment.</p></article>
+          <article data-sequence-item style="--order:1"><span class="wish-cards__number">02</span><i>☁</i><p>May soft days find you whenever life gets a little loud.</p></article>
+          <article data-sequence-item style="--order:2"><span class="wish-cards__number">03</span><i>✦</i><p>May you collect stories that are worth telling twice.</p></article>
+          <article data-sequence-item style="--order:3"><span class="wish-cards__number">04</span><i>☺</i><p>May you keep finding reasons to smile—overdecorated webpages included.</p></article>
+        </div>
+      </section>
+
+      <section class="quiet-truth">
+        <div class="quiet-truth__cloud" aria-hidden="true"><i></i><i></i><i></i></div>
+        <div class="quiet-truth__drizzle" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+        <p class="kicker" data-reveal>A quiet little truth</p>
+        <blockquote data-reveal>Some people feel a little like weather—once they arrive,<em> the whole day changes.</em></blockquote>
+        <p class="quiet-truth__aside" data-reveal>No dramatic speech. Just a tiny reminder that you make ordinary moments feel less ordinary.</p>
+      </section>
+
+      <section class="final-wish">
+        <div class="final-wish__sparkles" aria-hidden="true"><span>✦</span><span>✧</span><span>♡</span><span>☺</span></div>
+        <p class="kicker" data-reveal>The actual birthday wish</p>
+        <h2 data-reveal>Dear MONSOON,<small>(Mausam)</small></h2>
+        <p class="final-wish__letter" data-reveal>I hope this next trip around the sun is kind to you. May the music be good, the laughter be easy, and the people around you give you plenty of reasons to smile. Today, especially, I hope you feel celebrated—in all the quiet, happy ways that suit you best.</p>
+        <div class="final-wish__tiny-note" data-reveal><span>☂</span><p>And if this page made you smile even once—mission accomplished.</p></div>
+        <p class="final-wish__signature" data-reveal>— A.</p>
+        <button class="confetti-button" id="confettiButton" type="button"><span>☂</span> Make it rain confetti</button>
+        <div class="confetti" id="confetti" aria-hidden="true"></div>
+        <footer><p>Made with a suspicious amount of care.</p><a href="#top">Back to the clouds ↑</a></footer>
+      </section>
+    </main>
+
+    <div class="photo-modal" id="photoModal" role="dialog" aria-modal="true" aria-label="Birthday photo" hidden>
+      <button class="photo-modal__backdrop" id="modalBackdrop" type="button" aria-label="Close photo"></button>
+      <figure><button type="button" id="modalClose" aria-label="Close photo">×</button><img id="modalImage" src="" alt="A birthday memory of Monsoon" /><figcaption id="modalCaption"></figcaption></figure>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
